@@ -4,10 +4,10 @@ jQuery(document).ready(function () {
 	      Background slideshow
 	  */
 	$('.banner-area').backstretch([
-		'static/homepage/images/6.jpg',
-		'static/homepage/images/7.jpg',
-		'static/homepage/images/8.jpg',
-		'static/homepage/images/9.jpg'
+		'images/6.jpg',
+		'images/7.jpg',
+		'images/8.jpg',
+		'images/9.jpg'
 	], {
 		duration: 3000,
 		fade: 750
