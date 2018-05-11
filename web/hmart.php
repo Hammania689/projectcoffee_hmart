@@ -19,10 +19,11 @@
 </head>
 
 <body>
-
-<!--header section -->
-<section class="banner" role="banner">
-  <div class="banner-area"> 
+  
+  <!--header section -->
+  <section class="banner" role="banner">
+    <div class="container-fluid">
+    <div class="banner-area"> 
     <!-- overlay -->
     <div class="banner-area-gradient"></div>
     <!-- overlay -->
@@ -30,9 +31,11 @@
       <div class="container">
         <div class="col-md-10 col-md-offset-1">
 
-          <div class="banner-text text-center"> <a class="logo" href="#">한아름 마트십니다 </a>
+          <div class="text-center banner-text ">
+             <a class="logo" href="#">한아름 마트십니다 </a>
             </p>
           </div>
+
         </div>
       </div>
     </div>
@@ -42,7 +45,6 @@
 <!--intro section -->
 <section id="intro" class="section intro">
   <div class="intro-content">
-    <div class="container-fluid">
       <div class="row">
       <!-- intro --> 
         <div class="text-center">
@@ -53,12 +55,21 @@
       </div>
 
       <div class="row">
-          <div class="col-md-3 col-sm-offset-1"> <img src="images/ceo.jpg" width="100%"> </div>
+          <div class="col-md-3 col-sm-offset-1"> <img src="images/ceo.jpg"> </div>
           <div class="col-md-6">
             <h1>Our Founder</h1>
             <p> 추아섬 (Mr.Chow)</p>
           </div>
         </div>
+
+      <div class="row">
+        <div class="col-lg-16"> <a href="top20Store.php">See Top 20 Selling Products At Each Store</a></div>
+        <div class="col-lg-16"> <a href="top20State.php">See Top 20 Selling Products In Each State</a></div>
+        <div class="col-lg-16"> <a href="top5Stores.php">See Top 5 Stores With Most Sales</a></div>
+        <div class="col-lg-16"> <a href="query4.php">See Top Products Compared For Each Store</a></div>
+        <div class="col-lg-16"> <a href="query5.php">See Top Selling Product Types</a></div>
+        
+      </div>
       </div>
     </div>
         
@@ -69,12 +80,7 @@
 <!--subscribe section -->
 <section id="subscribes" class="subscribe">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-5 subscribe-title">
-      </div>
-      
-      <!-- subscribe form -->
-     
+    <div
       </div>
       <!-- subscribe form --> 
     </div>

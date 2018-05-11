@@ -1,1 +1,1 @@
-<?php header( 'Location: /hmart.html' ) ;  ?>
+<?php header( 'Location: /hmart.php' ) ;  ?>
