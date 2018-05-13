@@ -21,6 +21,10 @@
 	}
 	else
 	{
+		echo "<h1> Note not every store has 20 transactions </h1> ";
+		echo "<br>";
+		
+
 		$result = $conn->query("SELECT @cur_rank, productName as Product, units as 'Units Sold', storeName as Store, store_ID
 		from (select product_ID as upc, amountSold as units_sold, store_ID, storeName,
 					-- Leveraged mysql session variables to track ranking 
@@ -54,7 +58,7 @@
 					$rank = 1;
 				}
 
-			echo $rank . ".) " . $row["Product"] . " " . $row["Units Sold"]  . " " . $row["Store"] ." <br>"; 
+			echo $rank . ".) " . $row["Product"] . " " . $row["Units Sold"]  . " " . " <br>"; 
 			$prev_store = $row["store_ID"];
 		}
 
