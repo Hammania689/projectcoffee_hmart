@@ -27,14 +27,43 @@
  font-size: 32px;
 }
  .item {
- width:70%;
+ width:100%;
 }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 100%) {
  .banner-text {
  padding-top: 55%;
 }
  .item {
- width:70%;
+ width:100%;
 }
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+    p{
+        text-align: center;
+        font-size: 8em;
+    }
+    
+    h1{
+        font-size: 12em;
+        text-align: center;
+        
+    }
+    
+    h2{
+        font-size: 10em;
+        text-align: center;
+    }
+    
+    h3{
+        font-size: 6em;
+        text-align: center;
+    }    
+    
