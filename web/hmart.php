@@ -31,6 +31,10 @@
       <div class="container">
         <div class="col-md-10 col-md-offset-1">
 
+          <div class="text-center banner-text ">
+             <a class="logo" href=></a>
+            </p>
+          </div>
 
         </div>
       </div>
