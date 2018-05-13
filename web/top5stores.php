@@ -1,3 +1,24 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>H Mart</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css'">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+
 <?php
 	// if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 	// 	$uri = 'https://';
@@ -32,21 +53,40 @@
 		$prev_store = "";
 		$rank = 1;
 
-        echo "<br>";
-        echo "Top 5 Stores ";
-        echo "<br>";
-        
-        echo "Store Name  || Store ID || Total Sales ";
-        echo "<br>";
+
+		echo "</table>
+				<table class='table table-striped'>
+				<h3> Top 5 Stores</h3>
+				<thead-dark>
+					<tr>
+					  <th scope='col'>Rank</th>
+					  <th scope='col'>Store</th>
+					  <th scope='col'>ID</th>
+					  <th scope='col'>Amount Sold</th>
+					</tr>
+				  </thead>
+				  <tbody>";
         
 		// $result = $conn-> query($sql);
 		while($row = $result->fetch_assoc())
 		{
-            echo  $row["Store"] . "                ||" . $row["store_ID"] . " ||" .  $row["Total Sales"] ." <br>"; 
-            $rank++;
+            // echo  $row["Store"] . "                ||" . $row["store_ID"] . " ||" .  $row["Total Sales"] ." <br>"; 
+			echo "<tr><td>" . $rank . "</td><td>" . $row['Store'] . "</td><td>" . $row['store_ID'] .  "</td><td>" . $row['Total Sales'] .  "</td></tr>";
+			
+			$rank++;
 		}
 		
 		$conn-> close(); 
 	}
 ?>
 
+
+<!-- JS files--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.backstretch.min.js"></script> 
+<script src="js/jquery.countdown.js"></script> 
+<script type="text/javascript" src="js/jquery.subscribe.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>

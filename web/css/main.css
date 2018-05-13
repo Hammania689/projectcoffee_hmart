@@ -196,12 +196,42 @@ ul li {
 }
 .intro h2 {
 	font-family: "Dosis", sans-serif;
-	font-size:70px;
+	font-size:65px;
 	font-weight: 700;
 	letter-spacing:2px;
 	text-transform:uppercase;
 	line-height: 100%;
 	margin-bottom: 10px;
+	
+}
+.intro h3 {
+	font-family: "Dosis", sans-serif;
+	font-size:50px;
+	font-weight: 700;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	line-height: 100%;
+	margin-bottom: 10px;
+	
+}
+.intro h4 {
+	font-family: "Dosis", sans-serif;
+	font-size:40px;
+	font-weight: 700;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	line-height: 100%;
+	margin-bottom: 0px;
+	
+}
+.intro h5 {
+	font-family: "Dosis", sans-serif;
+	font-size:30px;
+	font-weight: 700;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	line-height: 100%;
+	margin-bottom: 0px;
 	
 }
 .intro p {

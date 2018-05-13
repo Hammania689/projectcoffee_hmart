@@ -45,7 +45,17 @@ img{
     width: 50%;
 }
 
-
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    font-size: 2em
+}
+tr {
+    padding: 8px 10px;
+  }
+td {
+    padding: 10px 12px;
+  }
     p{
         text-align: center;
         font-size: 8em;
@@ -65,5 +75,15 @@ img{
     h3{
         font-size: 6em;
         text-align: center;
+    }    
+    
+    h4{
+        text-align: center;
+    font-size: 3em
+        
+    } h5{
+        text-align: center;
+    font-size: 3em
+        
     }    
     
